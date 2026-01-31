@@ -1,0 +1,36 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: transcard-postgres
+    environment:
+      POSTGRES_DB: transcard_database
+      POSTGRES_USER: transcard_user
+      POSTGRES_PASSWORD: transcard_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  backend:
+    image: kleber98/transcard-backend:latest
+    container_name: transcard-backend
+    environment:
+      DB_URL: jdbc:postgresql://postgres:5432/transcard_database
+      DB_USER: transcard_user
+      DB_PASSWORD: transcard_password
+      JWT_SECRET: key123
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+  frontend:
+    image: kleber98/transcard-frontend:latest
+    container_name: transcard-frontend
+    ports:
+      - "4200:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

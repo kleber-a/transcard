@@ -1,0 +1,6 @@
+[submodule "transcard-api"]
+	path = transcard-api
+	url = https://github.com/kleber-a/transcard_api.git
+[submodule "transcard-frontend"]
+	path = transcard-frontend
+	url = https://github.com/kleber-a/transcard_front.git
