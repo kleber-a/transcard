@@ -92,7 +92,7 @@ O projeto possui um **modelo de dados relacional**, onde:
 - **Tratamento de Erros:** Exceções personalizadas e globais com `@ControllerAdvice`
 
 ### Frontend
-- **Framework:** Angular 18
+- **Framework:** Angular 19
 - **Estilização:** TailwindCSS (Responsivo)
 - **Gerenciamento de Estado:** Services & RxJS
 
