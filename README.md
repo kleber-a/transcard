@@ -82,12 +82,14 @@ O projeto possui um **modelo de dados relacional**, onde:
 ## Stack Tecnológica
 
 ### Backend
-- **Linguagem:** Java 17+ (Compatível com Java 8)
+- **Linguagem:** Java 17+
 - **Framework:** Spring Boot 3+
 - **Persistência:** Spring Data JPA / Hibernate
 - **Banco de Dados:** PostgreSQL
-- **Documentação:** Swagger (OpenAPI 3)
+- **Documentação:** Swagger (OpenAPI 3) via SpringDoc
 - **Migrações:** Flyway
+- **Segurança:** Spring Security + JWT (java-jwt)
+- **Mapeamento de Objetos:** MapStruct
 - **Build Tool:** Maven
 - **Tratamento de Erros:** Exceções personalizadas e globais com `@ControllerAdvice`
 
