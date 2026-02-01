@@ -54,7 +54,7 @@ O projeto possui um **modelo de dados relacional**, onde:
 - O banco de dados é gerenciado com **migrações Flyway**, garantindo consistência e versionamento das tabelas.
 
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 ### 👤 Gestão de Usuários e Permissões
 * **Perfis de Acesso:** Dois perfis de usuário:
@@ -79,7 +79,7 @@ O projeto possui um **modelo de dados relacional**, onde:
 * Metodologia baseada em **camadas (Controller, Service, Repository, DTO, Model)** para modularidade e manutenção.  
 ---
 
-## 🛠️ Stack Tecnológica
+## Stack Tecnológica
 
 ### Backend
 - **Linguagem:** Java 17+ (Compatível com Java 8)
@@ -98,7 +98,7 @@ O projeto possui um **modelo de dados relacional**, onde:
 
 ---
 
-## 🔗 Repositórios Relacionados
+## Repositórios Relacionados
 
 * Backend: [Transcard Backend](https://github.com/kleber-a/transcard_api.git)
 * Frontend: [Transcard Frontend](https://github.com/kleber-a/transcard_front.git)
@@ -125,7 +125,7 @@ transcard/
 
 O frontend está organizado em **components, modulos, pages, services e models**, consumindo a API do backend. -->
 
-## ⚡ Como Executar o Projeto
+## Como Executar o Projeto
 
 #### 1️⃣ Rodando com Docker Compose
 
