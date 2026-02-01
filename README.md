@@ -13,6 +13,12 @@ O projeto segue boas práticas de desenvolvimento, incluindo separação em cama
 ---
 
 
+
+https://github.com/user-attachments/assets/82076312-38f2-41b2-b0cf-558cfc094292
+
+
+
+
 #### 📊 Campos das Tabelas
 
 ##### **Tabela: `users`**
