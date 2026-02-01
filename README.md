@@ -194,6 +194,10 @@ spring.datasource.driver-class-name=org.postgresql.Driver
 # Configurações do JPA / Hibernate
 spring.jpa.hibernate.ddl-auto=validate
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+
+# Chave secreta para autenticação via token
+api.security.token.secret=key123
+
 # Recomendado: Mostrar o SQL no console para debug (opcional)
 # spring.jpa.show-sql=true
 ```
