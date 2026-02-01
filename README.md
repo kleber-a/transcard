@@ -76,7 +76,7 @@ O projeto possui um **modelo de dados relacional**, onde:
 ### 🔒 Segurança
 * Estrutura preparada para autenticação via Spring Security.  
 * Roles definidas em enum `Role` para diferenciar admins e usuários comuns.  
-* Metodologia baseada em **camadas (Controller, Service, Repository, DTO, Model)** para modularidade e manutenção.  
+* Metodologia baseada em **camadas (Controller, Service, Repository, Mapper, DTO, Model)** para modularidade e manutenção.  
 ---
 
 ## Stack Tecnológica
