@@ -134,8 +134,14 @@ O projeto pode ser executado facilmente usando **Docker Compose**, sem precisar 
 ### Passos
 
 1. Certifique-se de ter **Docker** e **Docker Compose** instalados na sua máquina.
+2. Libere as portas necessárias no host:
 
-2. No diretório raiz do projeto, rode o comando:
+- `5432` → Postgres  
+- `8080` → Backend  
+- `4200` → Frontend  
+
+> ⚠️ As portas devem estar livres, caso contrário o Docker Compose não conseguirá iniciar os serviços.
+3. No diretório raiz do projeto, rode o comando:
 
 ```bash
 docker-compose up -d
